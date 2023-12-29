@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Contact</title>
 </head>
+
 <body>
  <h3>Contact Details</h3>
- <ul type="none"><h4>Email</h4>
+ <ul type="none">
+  <h4>Email</h4>
   <li>jmucheke274@gmail.com</li>
  </ul>
  <ul type="none">
   <h4>Phone</h4>
   <li>0700827215</li>
  </ul>
+
+ <hr>
+
+ <form action="post">
+  <label for="name">Your Name: </label>
+  <input placeholder="John Doe" name="name" type="text"><br>
+  <label for="email">Your Email: </label>
+  <input placeholder="example@gmail.com" name="email" type="email"><br>
+  <label for="message">Your Message: </label>  <br>
+  <textarea
+   name="message" placeholder="Hey there!" id="message" cols="30" rows="10"></textarea><br>
+
+   <input type="submit" name="submit" id="submit">
+   <input type="range" value="70">
+ </form>
 </body>
+
 </html>
